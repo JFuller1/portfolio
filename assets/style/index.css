@@ -1,1 +1,139 @@
 @import 'base.css';
+
+.landingPage {
+    height: 100vh;
+    animation: fade-in 3s linear;
+    background-image: url('../img/landing_page.png');
+    background-size: cover;
+}
+
+.landingPage header {
+    transform: translateY(-11vh);
+    animation: drop-down 2s ease-in-out;
+    animation-delay: 2s;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.landingPage header .flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    height: 10vh;
+    align-items: center;
+}
+
+.landingPage header ul {
+    list-style: none;
+    text-align: right;
+}
+
+.landingPage header ul li {
+    display: inline;
+}
+
+.landingPage header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.landingPage header h1 {
+    color: #fff;
+}
+
+.landingPage header hr {
+    border-top: 1px solid #fff;
+    margin: 0 auto;
+    width: 95%;
+}
+
+@keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes drop-down {
+    0% {transform: translateY(-11vh);}
+    100% {transform: translateY(0);}
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #000;
+}
+
+main {
+    background: linear-gradient(0deg, #111 60%, rgba(0,0,0,1) 100%);
+    height: 1200px;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main div {
+    overflow: hidden;
+}
+
+.main div h2 {
+    color: #fff;
+    transform: translateY(-11vh);
+    animation: drop-down 2s ease-in-out;
+    animation-delay: 3s;
+    font-size: 80px;
+}
+
+.main div p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    transform: translateY(-11vh);
+    animation: drop-down 2s ease-in-out;
+    animation-delay: 3s;
+}
+
+footer {
+    height: 15vh;
+    padding: 0 5%;
+    background-color: #0b0b0b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li i {
+    color: #ddd;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+footer ul li a {
+    text-decoration: none;
+}

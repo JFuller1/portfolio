@@ -1,0 +1,17 @@
+commit 9646c22a0f4868dacbfc7219406355d04364afe7 (HEAD -> main, origin/main)
+Author: Jaeden Fuller <fuller.jc@outlook.com>
+Date:   Fri May 6 15:50:55 2022 -0500
+
+    Added a README
+
+commit bc81aa0428a812837590633cd43edcd9f374bf1b
+Author: Jaeden Fuller <fuller.jc@outlook.com>
+Date:   Fri May 6 15:40:50 2022 -0500
+
+    added landing page & footer
+
+commit c89bd75e266b8dee7e46604f637e4ee4c0df3427
+Author: Jaeden Fuller <fuller.jc@outlook.com>
+Date:   Fri May 6 13:04:50 2022 -0500
+
+    initial commit

@@ -159,12 +159,12 @@ body {
 /* Main */
 
 main {
-    background-color: #111;
+    background-color: #1c1c1c;
 }
 
 .about {
     height: 100vh;
-    background-color: #111;
+    background-color: #1c1c1c;
     margin: 0 auto;
     padding-top: 20vh;
 }
@@ -209,15 +209,16 @@ main {
 
 .contact {
     width: 100%;
-    height: 200px;
-    background-color: #fe007e;
-    margin-bottom: 20vh;
+    height: 165px;
+    background-color: #131313;
+    /* margin-bottom: 20vh; */
     margin-top: 10vh;
+    border-top: 35px solid #fe007e;
 }
 
 .contact h2 {
     padding: 20px 40px;
-    transform: translateY(-40px);
+    transform: translateY(-62.5px);
     color: #fff;
     text-align: center;
     background-color: #fe007e;
@@ -242,11 +243,11 @@ main {
 }
 
 .contact ul li i {
-    color: #ddd;
+    color: #fff;
     font-size: 55px;
     margin-left: 50px;
     transition: all .5s;
-    transform: translateY(-10px);
+    transform: translateY(-22.5px);
 }
 
 .contact .first {
@@ -258,15 +259,15 @@ main {
 }
 
 .contact ul li i:hover {
-    color: #ff9ccd;
+    color: #fe007e;
 }
 
 /* Footer */
 
 footer {
-    height: 15vh;
+    height: 10vh;
     padding: 0 5%;
-    background-color: #0f0f0f;
+    background-color: #131313;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +275,26 @@ footer {
 
 
 footer p{
-    color: #ddd;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
+    font-style: italic;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 600px) { 
+
+}
+
+@media only screen and (max-width: 600px) { 
+    
+}
+
+@media only screen and (max-width: 600px) { 
+    
+}
+
+@media only screen and (max-width: 600px) { 
+    
 }

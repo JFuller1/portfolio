@@ -1,4 +1,16 @@
-commit 9646c22a0f4868dacbfc7219406355d04364afe7 (HEAD -> main, origin/main)
+commit 608243a7116a01446cce69dabdd5854c0a7c66f4 (HEAD -> main, origin/main)
+Author: Jaeden Fuller <fuller.jc@outlook.com>
+Date:   Mon May 9 18:53:51 2022 -0500
+
+    Final touches on index page
+
+commit 469a190684bcd39a9abdff1acd19720be15e873b
+Author: Jaeden Fuller <fuller.jc@outlook.com>
+Date:   Sun May 8 17:37:40 2022 -0500
+
+    added log folder & fixed landing page
+
+commit 9646c22a0f4868dacbfc7219406355d04364afe7
 Author: Jaeden Fuller <fuller.jc@outlook.com>
 Date:   Fri May 6 15:50:55 2022 -0500
 
